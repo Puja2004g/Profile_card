@@ -1,0 +1,80 @@
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .layout {
+        width: 500px;
+        height: 550px;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    header {
+        width: 100%;
+        height: 35%;
+        background-image: url(https://i.pinimg.com/736x/c4/d8/83/c4d883ca4d3c00b0d80a37f860b2078e.jpg);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .pic img {
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 80px;
+    }
+
+    .main_content {
+        text-align: center;
+    }
+
+    .main_content h2 {
+        margin-top: 30px;
+    }
+
+    .main_content p {
+        font-weight: normal;
+        font-size: 20px;
+        margin: none;
+        padding: none;
+    }
+
+    .profile {
+        padding: 10px;
+    }
+
+    .profile img {
+        padding: 0px 15px 0px 15px;
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .profile img:hover {
+        cursor: pointer;
+    }
+
+    .image {
+        background-color: white;
+        border-radius: 35%;
+    }
+
+    button {
+        color: blue;
+        font-weight: bold;
+        padding: 10px;
+        width: 50%;
+        margin-top: 10px;
+        border: 3px solid blue;
+    }
+
+    button:hover {
+        border: 3px solid red;
+        cursor: pointer;
+    }
